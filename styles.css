@@ -1,0 +1,99 @@
+:root {
+    /* define the color pallet */
+    --primary-color: rgb(220, 251, 254);
+    --secondary-color: #FAEAC0;
+    /* --primary-color: rgb(128,0,32);
+    --secondary-color: rgb(254,130,140); */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 5rem;
+  color: cornflowerblue;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3rem;
+  color: cornflowerblue;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  padding: 2rem 2rem 2rem 2rem;
+
+}
+
+p {
+  font-size: 2rem;
+  color: darkblue;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  line-height: 1.3;
+  font-weight: 300;
+  margin: 8rem;
+}
+
+ul, ol {
+  font-size: 2rem;
+  color: darkblue;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  line-height: 1.3;
+  font-weight: 300;
+  margin: 2.5rem;
+  list-style-position: inside;
+}
+
+li {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  
+}
+
+section {
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+section:nth-child(even) {
+    background-color: var(--primary-color);
+}
+
+
+section:nth-child(odd) {
+    background-color: var(--secondary-color);
+}
+
+.gallery-item {
+  width: 55rem;
+  height: 55rem;
+  text-align: center;
+  border-color: antiquewhite;
+  background-color: cornflowerblue;
+}
+
+.empathymaps {
+
+  width: 90rem;
+  height: 50rem;
+  text-align: center;
+  border-color: antiquewhite;
+  background-color: cornflowerblue;
+
+}
+
+.StoryBoard {
+
+  width: 85rem;
+  height: 60rem;
+  text-align: center;
+  border-color: antiquewhite;
+  background-color: cornflowerblue;
+
+}
+
